@@ -106,8 +106,6 @@ Each tile (or "spot") on the grid is an object storing:
 
 •	Add diagonal movement support
 
-•	Add more algorithms (Dijkstra, BFS, DFS)
-
 •	Customizable grid weights
 
 •	Dynamic Obstacle Handling 
