@@ -1,6 +1,8 @@
 A* Pathfinding Visualizer in Python
 
+
 🚀 Introduction
+
 
  This project is a Python-based visualizer for the A* (A-star) pathfinding algorithm built using Pygame. It allows users to interactively place start and end points, draw obstacles, and watch in real-time how A* finds the shortest path on a grid.
 Whether you're learning about graph algorithms or just enjoy visualizing how intelligent routing works, this tool provides a clean and intuitive way to see A in action*.
@@ -21,6 +23,7 @@ In this implementation, we use Manhattan Distance as the heuristic h(n).
 
 
 🛠️ Implementation in Brief
+
 
 ✅ Features:
 
@@ -48,6 +51,7 @@ o	Final path (Purple)
 
 🔧 Tech Stack:
 
+
 •	Python 3
 
 •	Pygame for UI and drawing
@@ -55,6 +59,7 @@ o	Final path (Purple)
 •	Priority Queue for open set tracking
 
 🧱 Grid Logic:
+
 
 Each tile (or "spot") on the grid is an object storing:
 
@@ -68,6 +73,7 @@ Each tile (or "spot") on the grid is an object storing:
 
 
 📈 A* Algorithm Flow
+
 
 
 
@@ -97,6 +103,7 @@ Each tile (or "spot") on the grid is an object storing:
 
 🧠 Future Ideas
 
+
 •	Add diagonal movement support
 
 •	Add more algorithms (Dijkstra, BFS, DFS)
@@ -104,6 +111,8 @@ Each tile (or "spot") on the grid is an object storing:
 •	Customizable grid weights
 
 •	Dynamic Obstacle Handling 
+
+
 
 
 This project was created as a learning project to deeply understand A* and Pygame, and also to provide an intuitive tool for others to visualize pathfinding logic.
