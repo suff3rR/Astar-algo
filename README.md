@@ -1,10 +1,12 @@
 A* Pathfinding Visualizer in Python
 
 🚀 Introduction
+
  This project is a Python-based visualizer for the A* (A-star) pathfinding algorithm built using Pygame. It allows users to interactively place start and end points, draw obstacles, and watch in real-time how A* finds the shortest path on a grid.
 Whether you're learning about graph algorithms or just enjoy visualizing how intelligent routing works, this tool provides a clean and intuitive way to see A in action*.
 
 📊 Algorithm Explanation
+
 A (A-star)* is a widely used pathfinding and graph traversal algorithm, popular in many fields like AI, games, and robotics. It aims to find the shortest path from a start node to an end node while avoiding obstacles (barriers) using the formula:
 f(n) = g(n) + h(n)
 Where:
